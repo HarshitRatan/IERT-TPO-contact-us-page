@@ -22,7 +22,7 @@ const Contact = () => {
             .then((result) => {
                 suc.style.display = 'block';
                 submitSpine.style.display = 'none';
-                resetForm.click();
+                resetBtn.click();
             },
                 (error) => {
                     err.style.display = 'block';

@@ -10,11 +10,13 @@ const Navbar = () => {
                 <div className="container-fluid">
                     <div className='navbar-brand'>
                         <img src={logo} width="50" height="50" alt="..." />
-                    </div>  
-                <span className="navbar-text" style={{marginRight : '25px'}}>
-                    <b className='my-color'><i className="fa fa-envelope my-color" aria-hidden="true"> </i>TPO@iert.ac.in</b>
-                </span> 
-                </div>  
+                        {/* <b className='my-color'>Training and Placement cell</b> */}
+                        <b style={{"marginLeft" : "10px"}} className='my-color'>Contact Us</b>
+                    </div>
+                    <span className="navbar-text" style={{ marginRight: '25px' }}>
+                        <b className='my-color'><i className="fa fa-envelope my-color" aria-hidden="true"> </i>TPO@iert.ac.in</b>
+                    </span>
+                </div>
             </nav>
         </>
     );

@@ -41,6 +41,9 @@ const Contact = () => {
                                 <b><i className="fa fa-envelope my-color2" aria-hidden="true"><b>TPO@iert.ac.in</b></i></b>
                             </span>
                         </div>
+                        <div className='form-text'>
+                        <b><span style={{"color" : "red", "marginLeft" : "15px"}}>Note :- This Form is 100% Working. You can Contact Me By using This Form.</span></b>
+                        </div>
                         <div className="card-body bg-light">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="form-group">

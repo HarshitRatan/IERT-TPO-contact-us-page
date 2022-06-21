@@ -3,7 +3,7 @@ https://contact-us-iert-tpo.netlify.app/
 
 ### `Prerequisite`
 ### `NodeJS and Create-React-App Installed on Your Local System.` 
-To Install NodeJS Please Refer : https://nodejs.org/en/download/ \
+To Install NodeJS Please Refer : https://nodejs.org/en/download/
 
 After Installing Node.js :- \
 Open Command Prompt(CMD) and Run The Following Command To Install Create-React-App :
@@ -16,6 +16,9 @@ First Download This Repository.
 
 Then, In the project directory, you can run:
 
+### `npm install` 
+
+To install Dependencies.(Mandatory Step)
 ### `npm start`
 
 Runs the app in the development mode.\
